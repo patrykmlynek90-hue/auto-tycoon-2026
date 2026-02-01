@@ -11,7 +11,6 @@ const nextConfig = {
   // User asked to change homepage which usually implies basepath handling.
   // Usually 'assetPrefix' is also set or handled by next-gh-pages logic? No, standard export handled by 'basePath'.
   basePath: '/auto-tycoon-2026',
-  assetPrefix: '/auto-tycoon-2026/',
 }
 
 export default nextConfig
