@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
 2:I[39756,["/auto-tycoon-2026/_next/static/chunks/0c6932420e96e619.js","/auto-tycoon-2026/_next/static/chunks/dfe24cce04d6304a.js"],"default"]
 3:I[37457,["/auto-tycoon-2026/_next/static/chunks/0c6932420e96e619.js","/auto-tycoon-2026/_next/static/chunks/dfe24cce04d6304a.js"],"default"]
-0:{"buildId":"4Ras6Lr1-zGdKoigCWzly","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"3qW5WpJ9T-gd_gredJYen","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
