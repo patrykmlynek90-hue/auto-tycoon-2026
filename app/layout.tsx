@@ -44,7 +44,7 @@ export default function RootLayout({
       <body className={`font-sans antialiased min-h-screen relative`}>
         {/* Background Layer - Z-0 */}
         <div className="fixed inset-0 z-0">
-          <div className="absolute inset-0 bg-[url('/images/background.jpg')] bg-cover bg-center bg-fixed" />
+          <div className="absolute inset-0 bg-[url('/auto-tycoon-2026/images/background.jpg')] bg-cover bg-center bg-fixed" />
           <div className="absolute inset-0 bg-black/93" />
         </div>
 
