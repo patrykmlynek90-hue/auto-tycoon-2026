@@ -1,6 +1,7 @@
 "use client"
 
 import { useGameStore } from "@/lib/game-store"
+import { getAssetPath } from "@/lib/asset-path"
 import { carClasses } from "@/data/carClasses" // Added for complexity logic
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -150,7 +151,7 @@ export function FactoryPanel() {
                     if (!model) return null
                     return (
                       <img
-                        src={`/images/cars/class-${model.class}.png`}
+                        src={getAssetPath(`/images/cars/class-${model.class}.png`)}
                         alt=""
                         className="w-[300px] h-auto object-contain opacity-10 filter invert rounded-2xl"
                         style={{

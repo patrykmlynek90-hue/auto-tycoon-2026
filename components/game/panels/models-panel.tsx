@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useEffect } from "react"
 import { useGameStore, applyInflation } from "@/lib/game-store"
+import { getAssetPath } from "@/lib/asset-path"
 import { CarClassId, carClasses, CarClassDefinition } from "@/data/carClasses"
 import { engineOptions, chassisOptions, bodyOptions, interiorOptions, CarPart } from "@/data/parts"
 import { calculateSynergy } from "@/lib/utils"
@@ -161,8 +162,8 @@ export function ModelsPanel() {
   // Helper to ensure correct image path, effectively handling specific casing rules if needed
   const getCarClassImagePath = (classId: string) => {
     // Explicitly keep RS uppercase as requested
-    if (classId === 'RS') return `/images/cars/class-RS.png`
-    return `/images/cars/class-${classId}.png`
+    if (classId === 'RS') return getAssetPath('/images/cars/class-RS.png')
+    return getAssetPath(`/images/cars/class-${classId}.png`)
   }
 
   // Helper to get stats for a part ID
